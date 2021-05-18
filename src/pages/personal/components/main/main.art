@@ -1,0 +1,7 @@
+<ul class="personal-ul">
+ <li class="personal-li"><a href="javascript:;"><span>我的行程计划</span><span class="personal-jt">&gt;</span></a></li>
+ <li class="personal-li"><a href="javascript:;"><span>我的收藏</span><span class="personal-jt">&gt;</span></a></li>
+ <li class="personal-li"><a href="javascript:;"><span>售后于客服</span><span class="personal-jt">&gt;</span></a></li>
+ <li class="personal-li"><a href="javascript:;"><span>我的优惠券</span><span class="personal-jt">&gt;</span></a></li>
+ <li class="personal-li"><a href="javascript:;"><span>常用旅客管理</span><span class="personal-jt">&gt;</span></a></li>
+</ul>

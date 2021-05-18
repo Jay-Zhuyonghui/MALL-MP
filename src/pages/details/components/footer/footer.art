@@ -1,0 +1,13 @@
+<div class="footer">
+	<div class="footer-left">
+		<span class="left-item">
+			<i class="iconfont icon-service"></i
+			><span class="icon-text">咨询</span>
+		</span>
+		<span class="left-item">
+			<i class="iconfont icon-collect"></i
+			><span class="icon-text">收藏</span>
+		</span>
+	</div>
+	<div class="footer-right">立即预定</div>
+</div>

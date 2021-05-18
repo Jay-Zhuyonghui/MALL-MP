@@ -1,0 +1,42 @@
+.searchbox {
+	display: flex;
+	align-items: center;
+ width: 100%;
+ padding: 0 20px;
+	background: rgba(0, 0, 0, 0.2);
+	border: 0 solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 27.5px;
+}
+.searchbox .icon-search{
+ color: #fff;
+ font-size: 20px;
+}
+.searchbox-form{
+ flex:1;
+}
+.searchbox-input{
+ width: 100%;
+ background: none;
+ color: #fff;
+ font-size: 14px;
+}
+.searchbox-input::-webkit-input-placeholder {
+ /* WebKit browsers 适配 Chrome */
+ color: #fff;
+}
+
+.searchbox-input:-moz-placeholder {
+ /* Mozilla Firefox 4 to 18 适配 Firefox */
+ color: #fff;
+}
+
+.searchbox-input::-moz-placeholder {
+ /* Mozilla Firefox 19+ 适配 Firefox */
+ color: #fff;
+}
+
+.searchbox-input:-ms-input-placeholder {
+ /* Internet Explorer 10+  适配 IE */
+ color: #fff;
+}

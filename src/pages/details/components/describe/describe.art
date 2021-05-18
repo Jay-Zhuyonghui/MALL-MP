@@ -1,0 +1,16 @@
+<div class="describe">
+ <div class="describe-cpjj">
+  <h2 class="describe-title">产品简介</h2>
+  {{each intros}}
+  <p class="cpjj-text">{{$value}}</p>
+  {{/each}}
+ </div>
+ <div class="describe-ydlc ">
+  <h2 class="describe-title">预定流程</h2>
+  <img src="./img_prebook.png" alt="" class="ydlc-img">
+ </div>
+ <div class="describe-tklc ">
+  <h2 class="describe-title">退款流程</h2>
+  <p class="tklc-text">{{refund}}</p>
+ </div>
+</div>

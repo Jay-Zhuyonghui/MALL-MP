@@ -1,0 +1,10 @@
+<div class="content">
+ <div class="content-top">
+  <img class="content-img" src="{{img}}" alt="">
+ </div>
+ <div class="content-bottom">
+  <p class="content-title">{{title}}</p>
+  <p class="content-tags">{{each tags}}<span class="content-tag">{{$value}}</span>{{/each}}</p>
+  <p class="content-num"><span>浏览{{vistor_counts}}</span><span>已售{{sold_counts}}份</span></p>
+ </div>
+</div>

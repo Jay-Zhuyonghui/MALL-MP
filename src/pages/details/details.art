@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>暮云游商城-商品详情</title>
+	</head>
+	<body>
+		<div class="details-layout" id="details-page">
+			<!-- 头部 -->
+			<div class="header-layout">
+    {{include './components/header/header.art'}}
+			</div>
+			<!-- 内容 -->
+			<div class="content-layout" id="details-content">
+    {{include '../../components/loading/loading.art'}}
+    <!-- {{include './components/content/content.art'}} -->
+   </div>
+			<!-- 描述 -->
+			<div class="describe-layout" id="details-describe">
+    {{include '../../components/loading/loading.art'}}
+    <!-- {{include './components/describe/describe.art'}} -->
+   </div>
+			<!-- 页脚 -->
+			<div class="footer-layout">
+    {{include './components/footer/footer.art'}}
+   </div>
+		</div>
+	</body>
+</html>
